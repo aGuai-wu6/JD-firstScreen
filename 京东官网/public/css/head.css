@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   color: #999;
+ }
+
+ .header {
+     border-bottom: 1px solid #ddd;
+     background-color: #e3e4e5;
+     font-size: 12px;
+     box-sizing: border-box;
+ }
+
+ .header .content {
+     width: 1190px;
+     margin: 0 auto;
+     height: 30px;
+     line-height: 30px;
+     color: #999;
+     box-sizing: border-box;
+     position: relative;
+     z-index: 21;
+ }
+
+ .header .content .position {
+     float: left;
+     padding: 0px 7px;
+ }
+
+ .header .content .nav {
+     float: right;
+ }
+
+ .header .content .nav li {
+     float: left;   
+     position: relative;
+     top: -1px;
+     height: 31px;
+ }
+
+ .header .content .nav li .dt {
+     padding: 0px 7px;
+     border: 1px solid transparent;
+     height: 100%;
+ }
+
+ .header .content .nav li .dt i {
+     vertical-align: middle;
+ }
+
+ .header .content .nav span {
+     width: 1px;
+     height: 12px;
+     background: #ccc;
+     float: left;
+     margin-top: 9px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+
+ .header .content .nav li .dt:hover a {
+     color: red;
+ }
+
+ .header .content .nav li:hover .dt {
+     position: relative;
+     z-index: 101;
+ }
+
+ .header .content .nav li #spec {
+     padding-right: 5px;
+ }
+
+ .header .content .nav li.spec:hover #spec{
+     background: #fff;
+     border: 1px solid #ccc;
+     border-bottom: none;
+     
+ }
+
+ .header .content .nav li .secMenu {
+     display: none;
+ }
+
+ .header .content .nav li.spec:hover .secMenu {
+    display: block;
+ }

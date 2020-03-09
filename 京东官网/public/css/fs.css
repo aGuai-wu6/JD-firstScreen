@@ -1,0 +1,426 @@
+.fs {
+    width: 100%;
+    height: 470px;
+    background-color: #e3e4e5;
+    position: relative;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.fs a.news_act_link {
+    display: inline-block;
+    width: 126%;
+    height: 710px;
+    background-image: url('http://img10.360buyimg.com/img/jfs/t1/60752/29/13318/134451/5da97e99Eec5b5a54/3aed236fbdcc7fd8.png.webp');
+    background-size: 100% 710px;
+    position: absolute;
+    left: 0px;
+    background-position-x: -200px;
+}
+
+.fs .grid {
+    width: 1200px;
+    height: 470px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.fs .grid #J-cate {
+    width: 190px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.fs .grid #J_popCtn {
+    position: absolute;
+    left: 191px;
+    top: 0;
+    width: 998px;
+    min-height: 468px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    -webkit-transition: top .25s ease;
+    transition: top .25s ease;
+    z-index: 1000;
+    display: none;
+}
+
+.fs .grid #fs-page {
+    float: left;
+}
+
+.fs .grid #fs-page .sliderBannerWrapper {
+    width: 590px;
+    height: 470px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.fs .grid .focus-item {
+    width: 190px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.fs .grid .focus-item div {
+    margin-bottom: 10px;
+    width: 190px;
+    height: 150px;
+}
+
+.fs .grid .col3 {
+    width: 190px;
+    height: 470px;
+    float: left;
+    background-color: #fff;
+    position: relative;
+}
+
+.fs .col3 .J_user {
+    position: relative;
+    width: 180px;
+    font-size: 12px;
+}
+
+.fs .col3 .J_user .use_inner a img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 13px;
+    border-radius: 50%;
+    border: 2px solid #999;
+}
+
+.fs .col3 .J_user .use_inner .J_login {
+    position: absolute;
+    width: 106px;
+    top: 16px;
+    left: 74px;
+}
+
+.fs .col3 .J_user .use_inner .J_login a {
+    color: #000;
+}
+
+.fs .col3 .J_user .use_inner .J_login a#login_tags {
+    color: #666;
+}
+
+.fs .col3 .J_user .use_inner .J_login .login span {
+    width: 1px;
+    height: 10px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.fs .col3 .J_user .login-btn {
+    width: 180px;
+    height: 35px;
+    padding-top: 67px;
+    text-align: center;
+}
+
+.fs .col3 .J_user .login-btn button {
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.fs .col3 .J_user .login-btn .newWelfare {
+    background-color: red;
+}
+
+.fs .col3 .J_user .login-btn .plusVlp {
+    background-color: #363634;
+    color: #e5d790;
+    font-size: 11px;
+}
+
+.fs .col3 .J_user::after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: linear-gradient(270deg, white, #eeeeee, #eeeeee, white);
+    bottom: 0;
+}
+
+.fs .col3 .J_news {
+    width: 100%;
+    height: 130px;
+    padding: 0px 0px 0px 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fs .col3 .J_news .news_head {
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+
+.fs .col3 .J_news .news_head h4 {
+    color: #333;
+}
+
+.fs .col3 .J_news .news_head a {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #999;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.fs .col3 .J_news .news_head a .iconfont-right {
+    background-image: url('../img/right_btn.png');
+    width: 12px;
+    height: 12px;
+    background-size: 70% 70%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.fs .col3 .J_news .news_list {
+    height: 88px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.fs .col3 .J_news .news_list .news_item {
+    max-width: 160px;
+    height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 6px;
+    line-height: 16px;
+}
+
+.fs .col3 .J_news .news_list .news_item a.news_link {
+    font-size: 12px;
+    color: #666;
+}
+
+.fs .col3 .J_news .news_list .news_item a.news_link .news_tags {
+    width: 35px;
+    height: 16px;
+    display: inline-block;
+    background: rgba(225, 37, 27, .08);
+    line-height: 16px;
+    text-align: center;
+    color: #e1251b;
+}
+
+
+.fs .col3 .J_news::after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: linear-gradient(270deg, white, #eeeeee, #eeeeee, white);
+    bottom: 0;
+}
+
+.fs .col3 .J_service {
+    overflow: hidden;
+    position: relative;
+    width: 190px;
+    height: 238px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
+
+.fs .col3 .J_service .service_list {
+    padding-top: 10px;
+}
+
+.fs .col3 .J_service .service_list .service_item {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 55px;
+    background: #fff;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.fs .col3 .J_service .service_list .service_item .service_lk .service_ico_img {
+    width: 28px;
+    height: 28px;
+}
+
+.fs .col3 .J_service .service_list .service_item .service_lk .service_ico_img_hover {
+    display: none;
+}
+
+.service_txt {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 2px solid #fff;
+    color: #333;
+    -webkit-transition: color .15s ease;
+    transition: color .15s ease;
+    font-size: 12px;
+}
+
+.fs .col3 .J_service .service_list .service_item .service_lk {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+.fs .col3 .J_service .service_list .service_item .service_lk .service_ico {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fs .col3 .J_service .service_list .service_item .service_lk .service_corner {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    background: #e1251b;
+    color: #fff;
+    z-index: 1;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.fs .col3 .J_service .service_list .service_item .service_lk .service_corner .service_corner_txt {
+    color: #fff;
+    font-style: normal;
+}
+
+.fs .col3 .J_service .service_list .service_item:hover .service_txt {
+    color: red;
+}
+
+.fs .col3 .J_service .service_list .service_item  .service_ico_img_hover {
+   margin: 0px 0px;
+   width: 28px;
+   height: 28px;
+   margin-top: -32px;
+}
+
+.fs .col3 .J_service .service_list .service_item:hover .service_ico_img_hover {
+    display: block;
+}
+
+.service_expend .service_list .service_item .service_lk{
+    margin-top: -36px;
+    overflow: hidden;
+}
+
+.style_red * { 
+    color: red;
+}
+
+.style_red .service_lk .service_txt {
+    border-bottom: 2px solid red;
+    display: inline;
+}
+
+.service_pop {
+    position: absolute;
+    top: 238px;
+    left: 0;
+    z-index: 1000;
+    width: 190px;
+    height: 206px;
+    background: #fff;
+    display: block;
+    -webkit-transition: all .2s ease;
+    transition: all .3s ease;
+    font-size: 12px;
+    padding: 0px 15px;
+    color: #666;
+    box-sizing: border-box;
+}
+
+.service_pop .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;  
+    bottom: 12px;
+    margin-left: -10px;
+    line-height: 20px;
+    text-align: center;
+    z-index: 1;
+    background: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #666;
+}
+
+.service_pop .close:hover {
+    background: red;
+    color: #fff;
+}
+
+.service_expend2 .service_list .service_frame2 .service_lk {
+   
+    z-index: 2;
+    transition: all .5s ease;
+    margin-top: -91px;
+    background: #fff;
+}
+
+#searchMenu {
+    width: 100%;
+    position: absolute;
+    left: -2px;
+    top: 35px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+#searchMenu .search_list li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    font-family: 楷体;
+    padding: 10px 0px 10px 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+#searchMenu .search_list li a:hover {
+    background: #ccc;
+    color: #fff;
+}
